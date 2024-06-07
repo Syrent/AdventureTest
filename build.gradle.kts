@@ -21,12 +21,7 @@ repositories {
 dependencies {
     paperweight.paperDevBundle("1.20.6-R0.1-SNAPSHOT")
 
-    /*implementation("net.kyori:adventure-api:4.17.0")
-    implementation("net.kyori:adventure-platform-bukkit:4.3.3")
-    implementation("net.kyori:adventure-text-minimessage:4.17.0")*/
-    implementation("org.sayandev:stickynote-core:1.0.38")
     implementation("org.sayandev:stickynote-bukkit:1.0.38")
-    implementation("org.sayandev:stickynote-bukkit-nms:1.0.38")
 }
 
 tasks {
