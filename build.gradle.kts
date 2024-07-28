@@ -58,7 +58,7 @@ tasks {
     }
 
     shadowJar {
-        relocate("net.kyori", "org.sayandev.adventuretest.lib.net.kyori.adventure")
+        relocate("net.kyori", "org.sayandev.adventuretest.lib.net.kyori")
 
         manifest {
             attributes["paperweight-mappings-namespace"] = "spigot"
