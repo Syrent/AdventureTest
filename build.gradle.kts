@@ -22,7 +22,9 @@ repositories {
 dependencies {
     paperweight.paperDevBundle("1.20.6-R0.1-SNAPSHOT")
 
-    implementation("org.sayandev:stickynote-bukkit:1.0.38")
+    implementation("net.kyori:adventure-api:4.17.0")
+    implementation("net.kyori:adventure-text-minimessage:4.17.0")
+    implementation("net.kyori:adventure-platform-bukkit:4.3.3")
 }
 
 tasks {
@@ -52,7 +54,7 @@ tasks {
     }
 
     runServer {
-        minecraftVersion("1.20.6")
+        minecraftVersion("1.21")
     }
 
     shadowJar {
